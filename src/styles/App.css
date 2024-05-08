@@ -1,0 +1,8 @@
+#root {
+  max-width: 2980px;
+  max-height: fit-content;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  place-items: center;
+}
