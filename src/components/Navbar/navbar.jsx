@@ -83,7 +83,7 @@ const Navbar = () => {
                 <button
                   className="w-[128px] h-[48px] rounded-full bg-gradient-to-b from-[#06286E] to-blue-500 text-xl font-normal text-white text-center hover:from-blue-600 hover:to-[#06286E]"
                   onClick={() =>
-                    window.open("https://linktr.ee/metahorizon", "_blank")
+                    window.open("", "_blank")
                   }
                 >
                   Login
