@@ -1,8 +1,8 @@
 import "./styles/App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/landing";
+import ContactUs from "./pages/contactus";
 import Navbar from "./components/Navbar/navbar";
-import FAQ from "./components/FAQ/faq";
 
 // export default App;
 const App = () => {
@@ -14,8 +14,8 @@ const App = () => {
           {" "}
           {/* Use Routes instead of Route */}
           <Route path="/" element={<LandingPage />} />
+          <Route path="/contactus" element={<ContactUs />} />
         </Routes>
-        <FAQ />
       </div>
     </Router>
   );

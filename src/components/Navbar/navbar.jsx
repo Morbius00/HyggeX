@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Contactus from "../../pages/contactus"
 import Brandlogo from "./assets/Component 40.svg";
 
 const Navbar = () => {
@@ -72,7 +73,7 @@ const Navbar = () => {
                 <Link to="/">FlashCard</Link>
               </div>
               <div className="text-[#3A3740] text-xl font-normal hover:text-[#0d0d0d] hover:font-semibold hover:border-b-4 hover:border-[#040404]">
-                <Link to="/">ContactUs</Link>
+              <Link to="/contactus">ContactUs</Link>
               </div>
 
               <div className="text-[#3A3740] text-xl font-normal hover:text-[#0d0d0d] hover:font-semibold hover:border-b-4 hover:border-[#040404]">

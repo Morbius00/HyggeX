@@ -1,7 +1,7 @@
 #root {
-  max-width: 2980px;
+  max-width: fit-content;
   max-height: fit-content;
-  margin: 0 auto;
+  margin:  auto;
   padding: 2rem;
   display: flex;
   place-items: center;

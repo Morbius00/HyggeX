@@ -16,7 +16,7 @@ export default function ProblemScreen() {
 
       // Add cases for other components if needed
       default:
-        return null;
+        return <Study/>;
     }
   };
 
