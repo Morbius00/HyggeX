@@ -77,7 +77,7 @@ const ReportDialog = () => {
 
   return (
     <div
-      className={`dialog ${isFullScreen ? "fullscreen" : ""} flex flex-col bg-white rounded-[42px] w-auto h-auto mt-8`}
+      className={`dialog ${isFullScreen ? "fullscreen" : ""} flex flex-col items-center justify-center bg-white rounded-[42px] w-auto h-auto mt-8`}
     >
       {currentReports.map((report, index) => (
         <div

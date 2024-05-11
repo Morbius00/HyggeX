@@ -76,13 +76,13 @@ const RepoQuizData = () => {
 
   return (
     <div
-      className={`dialog ${isFullScreen ? "fullscreen" : ""} flex flex-col bg-white rounded-[42px] w-auto h-auto mt-8`}
+      className={`dialog ${isFullScreen ? "fullscreen" : ""} flex flex-col items-center justify-center bg-white rounded-[42px] w-auto h-auto mt-8`}
     >
       <div className="content">
         {currentReports.map((question, index) => (
           <div
             key={index}
-            className="lg:w-[712px] lg:h-[393px] bg-gradient-to-bl from-blue-900 via-blue-600 to-blue-500 rounded-[42px] px-5"
+            className=" lg:w-[712px] lg:h-[393px] bg-gradient-to-bl from-blue-900 via-blue-600 to-blue-500 rounded-[42px] px-5"
           >
             <div className="flex flex-row justify-between p-3">
               <div className="flex flex-row ">
