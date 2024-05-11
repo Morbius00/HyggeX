@@ -82,7 +82,7 @@ const ReportDialog = () => {
       {currentReports.map((report, index) => (
         <div
           key={index}
-          className="lg:w-[712px] lg:h-[393px] bg-gradient-to-bl from-blue-900 via-blue-600 to-blue-500 rounded-[42px]"
+          className="lg:w-[712px] lg:h-[393px] w-[320px] bg-gradient-to-bl from-blue-900 via-blue-600 to-blue-500 rounded-[42px] px-5"
         >
           {/* header */}
           <div className="flex flex-row justify-between m-4">
